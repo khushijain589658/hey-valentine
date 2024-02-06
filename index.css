@@ -121,18 +121,18 @@ h2 {
 }
 
 .coll-6 {
-  width: 900px;
+  width: 90%;
   height: 200px;
-  object-fit: cover;
   cursor: pointer;
   transition: width 250ms ease, height 250ms ease;
   border-radius: 5px;
   background-color: rgb(193, 209, 45);
-  /* border-radius: rgb(155, 28, 148); */
-  display: inline-block;
-  position: relative;
-  top: 100px;
-  right: -500px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .coll-6 h2 {
